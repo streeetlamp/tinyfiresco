@@ -5,7 +5,7 @@
 var today = new Date().getHours();
 
 if (today >= 7 && today <= 19) {
-   $('body').addClass('night');
+   $('body').addClass('day');
    $('#timeIcon').addClass('fa-sun-o');
 } else {
    $('body').addClass('night');
