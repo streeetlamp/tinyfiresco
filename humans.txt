@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Cody Whitby -- Owner Operator -- @streetlamp
 
 # THANKS
 
-    <name>
+    Mom
 
 # TECHNOLOGY COLOPHON
 
