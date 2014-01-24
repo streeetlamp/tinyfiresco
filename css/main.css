@@ -11,10 +11,8 @@
    ========================================================================== */
 
 html {
-		color: #222;
     font-size: 1em;
     line-height: 1.4;
-    background: #EAE3DB;
 }
 
 a {
@@ -26,6 +24,15 @@ a {
 
 a:hover {
 		border-bottom: solid .125em white;
+}
+
+body.night a {
+		color: #eeeceb;
+		border-bottom: solid .125em #eeeceb;
+}
+
+body.night a:hover {
+		border-bottom: solid .125em #444;
 }
 
 /*
@@ -112,14 +119,35 @@ body {
 	font-family: "futura-pt",sans-serif;
 	font-weight: 700;
 	-webkit-font-smoothing: antialiased;
+  background: #EAE3DB;
+  color: #222;
 	margin: 0 auto;
 	max-width: 30em;
 	padding: 0 2em;
 }
 
+body.night {
+	color: #eeeceb;
+	background: #222;
+}
+
 header {
 	padding-top: 4em;
 	margin-bottom: 2em;
+}
+
+header svg {
+	width: 12em;
+	height: 100%;
+	margin-bottom: 1em;
+}
+
+.tinyfires-svg {
+	fill: #222;
+}
+
+body.night .tinyfires-svg {
+	fill: #eeeceb;
 }
 
 header img {
@@ -145,6 +173,18 @@ ul {
 	padding: 1em 0;
 }
 
+.richmond svg {
+	height: 100%;
+	width: 9em;
+}
+
+.richmond-svg {
+	fill: #222;
+}
+
+body.night .richmond-svg {
+	fill: #eeeceb;
+}
 
 
 /* ==========================================================================
